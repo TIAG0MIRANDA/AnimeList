@@ -8,5 +8,19 @@ header {
     border: solid 1px black;
     height: 250px;
     width: 100%;
+    position: relative;
+
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    bottom: -65px; /* metade da altura */
+    left: 115px;
 }
 

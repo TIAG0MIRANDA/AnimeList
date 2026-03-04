@@ -1,8 +1,10 @@
+//  SELETORES
 const items = document.querySelectorAll(".item");
 const line = document.querySelector(".line");
+const nav = document.querySelector(".nav");
 
+// FUNÇÕES
 function moveLine(element) {
-    const nav = document.querySelector(".nav");
     const elementRect = element.getBoundingClientRect();
     const navRect = nav.getBoundingClientRect();
 
@@ -16,7 +18,8 @@ function setActive(text) {
     });
     text.classList.add("active");
 }
-
+ 
+//EVENTOS
 items.forEach(item => {
     item.addEventListener("click", () => {
         const text = item.querySelector("span");
@@ -25,6 +28,7 @@ items.forEach(item => {
     });
 });
 
+//  INICIALIZAÇÃO
 const firstText = items[0].querySelector("span");
 setActive(firstText);
 moveLine(firstText);

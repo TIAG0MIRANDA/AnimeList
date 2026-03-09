@@ -7,5 +7,5 @@ function criarCaixa() {
     caixa.classList.add("anime-card");
 
     container.appendChild(caixa);
-
+ 
 }

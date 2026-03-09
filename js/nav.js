@@ -5,7 +5,7 @@ const nav = document.querySelector(".nav");
 
 // FUNÇÕES
 function moveLine(element) {
-    const elementRect = element.getBoundingClientRect();
+    const elementRect = element.getBoundingClientRect(); 
     const navRect = nav.getBoundingClientRect();
 
     line.style.width = elementRect.width + "px";

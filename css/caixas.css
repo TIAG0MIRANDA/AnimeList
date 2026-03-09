@@ -1,0 +1,12 @@
+.anime-card{
+    width: 250px;
+    height: 180px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+#anime-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

@@ -3,7 +3,7 @@ const items = document.querySelectorAll(".item");
 const line = document.querySelector(".line");
 const nav = document.querySelector(".nav");
 
-// FUNÇÕES 
+// FUNÇÕES
 function moveLine(element) {
     const elementRect = element.getBoundingClientRect();
     const navRect = nav.getBoundingClientRect();

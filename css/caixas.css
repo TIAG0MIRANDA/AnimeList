@@ -1,20 +1,26 @@
-.anime-card{
-    width: 250px;
-    height: 180px;
-    border: 1px solid #000000;
+.anime-card {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #00000080;
     border-radius: 6px;
+
 }
 
-#anime-container{
-    display: flex; 
+#anime-container {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
+    top: 32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* centraliza horizontalmente */
 }
 
 button {
-    margin-top: 50px;
-    width: 250px;
-    height: 180px;
+    width: 300px;
+    height: 250px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #D9D9D9;
@@ -24,12 +30,13 @@ button {
     cursor: pointer;
     box-shadow: 3px 2px 3px rgb(0, 0, 0);
 }
-p{
+
+p {
     font-size: 85px;
 }
 
 .add-anime-btn {
     position: absolute;
-    bottom: 30px;
-    left: 101px;
+    bottom: -50px;
+    left: 129px;
 }

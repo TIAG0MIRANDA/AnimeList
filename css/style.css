@@ -43,7 +43,7 @@ header {
 main {
     margin: 100px;
     border: solid 1px;
-    height: 200px;
+    height: auto;
 }
 
 h1 {

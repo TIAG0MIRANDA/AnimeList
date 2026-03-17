@@ -8,37 +8,46 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    height: 250px;
+.header {
     width: 100%;
-    position: relative;
+    min-height: 200px;
+    height: 30vh;
 
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 5vw;
 }
 
 .logo {
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    top: 27px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 5px;
 }
- 
+
 .logo-container {
+    width: 170px;
+    height: 170px;
+
     background-color: black;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    bottom: -65px;
-    left: 115px;
     border-radius: 50%;
 
     display: flex;
     align-items: center;
+    /* vertical */
     justify-content: center;
+    /*horizontal*/
+
+    transform: translateY(50%);
 }
+
+/**==========================================================*/
 
 main {
     margin: 100px;
